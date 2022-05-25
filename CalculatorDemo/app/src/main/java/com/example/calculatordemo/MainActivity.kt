@@ -12,5 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //val numA = binding.etNumA.text.toString().toInt()
+        //val numB = binding.etNumB.text.toString().toInt()
+
+        //binding.tvResult.text = "Result: ${numA+numB}"
     }
 }
