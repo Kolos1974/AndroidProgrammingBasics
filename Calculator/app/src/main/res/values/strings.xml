@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="enter_first_number_here">Enter first number here</string>
+    <string name="enter_second_number_here">Enter second number here</string>
+    <string name="text_result">Result: %1$d</string>
+    <string name="error_add">Error, the number is too large: %1$S</string>
+    <string name="clear">Clear</string>
+</resources>
