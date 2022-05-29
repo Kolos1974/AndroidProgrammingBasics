@@ -9,15 +9,21 @@
 
     <EditText
         android:id="@+id/etNumA"
+        android:inputType="number"
+        android:maxLength="5"
+        android:hint="Enter num A here"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/etNumB"
+        android:inputType="number"
+        android:maxLength="5"
+        android:hint="Enter num B here"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/btnSum"
-        android:text="Plus"
+        android:text="@string/button_plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
